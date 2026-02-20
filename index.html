@@ -52,32 +52,92 @@
     <main>
       <div class="container">
         <article class="article article-intro">
-          <div class="heading">
-            <h2 class="heading__title"></h2>
-            <span class="heading__chapter"></span>
+          <div class="article__title title">
+            <h2 class="title__heading">Introduction</h2>
+            <span class="title__chapter">Chapter 1</span>
           </div>
-          <div class="article__content"></div>
+          <div class="article__content">
+            <p>
+              Welcome to the very start of your React Native journey! If you're
+              looking for environment setup instructions, they've moved to their
+              own section. Continue reading for an introduction to the
+              documentation, Native Components, React, and more!
+            </p>
+          </div>
         </article>
         <article class="article article-components">
-          <div class="heading">
-            <h2 class="heading__title"></h2>
-            <span class="heading__chapter"></span>
+          <div class="article__title title">
+            <h2 class="title__heading">core components</h2>
+            <span class="title__chapter">Chapter 2</span>
           </div>
-          <div class="article__content"></div>
+          <div class="article__content">
+            <p>
+              React Native is an open source framework for building Android and
+              iOS applications using React and the app platform’s native
+              capabiles. With React Native, you use JavaScript to access your
+              platform’s APIs as well as to describe the appearance and behavior
+              of your UI using React components: bundles of reusable, nestable
+              code. You can learn more about React in the next section. But
+              first, let’s cover how components work in React Native.
+            </p>
+          </div>
         </article>
         <article class="article article-react">
-          <div class="heading">
-            <h2 class="heading__title"></h2>
-            <span class="heading__chapter"></span>
+          <div class="article__title title">
+            <h2 class="title__heading">react fundamentals</h2>
+            <span class="title__chapter">Chapter 3</span>
           </div>
-          <div class="article__content"></div>
+          <div class="article__content">
+            <p>react fundamentals</p>
+            <ul>
+              We’re going to cover the core concepts behind React:
+              <li>
+                + components. The rest of this introduction to React uses cats
+                in its examples: friendly, approachable creatures that need
+                names and a cafe to work in.
+              </li>
+              <li>
+                + JSX. React and React Native use JSX, a syntax that lets you
+                write elements inside JavaScript like so: &lt;Text&gt;Hello, I
+                am your cat!&lt;/Text&gt;.
+                <p>
+                  The React docs have a comprehensive guide to JSX you can refer
+                  to learn even more. Because JSX is JavaScript, you can use
+                  variables inside it. Here you are declaring a name for the
+                  cat, name, and embedding it with curly braces inside
+                  &lt;Text&gt;
+                </p>
+              </li>
+              <li>+ props. Props is short for “properties”.</li>
+              <li>
+                + state. While you can think of props as arguments you use to
+                configure how components render, state is like a component’s
+                personal data storage. State is useful for handling data that
+                changes over time or that comes from user interaction. State
+                gives your components memory!
+              </li>
+            </ul>
+          </div>
         </article>
         <article class="article article-input">
-          <div class="heading">
-            <h2 class="heading__title"></h2>
-            <span class="heading__chapter"></span>
+          <div class="article__title title">
+            <h2 class="title__heading">handling text input</h2>
+            <span class="title__chapter">Chapter 4</span>
           </div>
-          <div class="article__content"></div>
+          <div class="article__content">
+            <p>
+              TextInput is a Core Component that allows the user to enter text.
+              It has an onChangeText prop that takes a function to be called
+              every time the text changed, and an onSubmitEditing prop that
+              takes a function to be called when the text is submitted.
+            </p>
+            <p>
+              For example, let's say that as the user types, you're translating
+              their words into a different language. In this new language, every
+              single word is written the same way: 🍕. So the sentence "Hello
+              there Bob" would be translated as "🍕 🍕".
+            </p>
+          </div>
         </article>
       </div>
     </main>
