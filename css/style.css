@@ -26,16 +26,18 @@ body {
 .container {
   max-width: var(--container-width);
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
+  margin-bottom: 70px;
 }
 
 .menu {
+  width: 66%;
   display: flex;
   gap: 10px;
 }
@@ -102,6 +104,11 @@ a {
 .article__content {
   font-family: 'PTSans';
   font-size: 28px;
+}
+
+.content__text {
+  /* display: inline-block; */
+  margin-bottom: 40px;
 }
 
 .bold {
